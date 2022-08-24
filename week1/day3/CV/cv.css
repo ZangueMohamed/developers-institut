@@ -1,0 +1,39 @@
+body{
+	margin: 0;
+	background-color: black;
+}
+.main{
+	display: grid;
+	height: 800px;
+	width: 800px;
+	margin: 50px;
+	border: 3px solid red;
+	grid-gap: 10px;
+	grid-template-areas: 
+	"a a a a a a a a a a"
+	"a a a a a a a a a a"
+	"b b b b b b b b b b"
+	"b b b b b b b b b b"
+	"b b b b b b b b b b"
+	"b b b b b b b b b b"
+	"b b b b b b b b b b"
+	"b b b b b b b b b b"
+	"b b b b b b b b b b"
+	"b b b b b b b b b b"
+
+}
+
+#header{
+	background-color: blue;
+	grid-area: a;
+	border: 3px solid red;
+	margin: 10px;
+}
+
+#content{
+	background-color: orange;
+	grid-area: b;
+	border: 3px solid red;
+	margin: 10px;
+
+}

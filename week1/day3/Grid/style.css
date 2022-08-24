@@ -1,0 +1,73 @@
+body{
+	margin: 0;
+}
+
+.main{
+	height: 600px;
+	width: 400px;
+	margin: 20px;
+	display: grid;
+	grid-gap: 5px;
+	font-weight: bold;
+	text-align: center;
+	grid-template-areas: 
+	"a a a a a"
+	"b b c c c"
+	"b b c c c"
+	"d d c c c"
+	"d d e e e"
+	"d d e e e"
+	"f f f g g"
+	"h h h h h"
+
+}
+#header{
+	background-color: lightblue;
+	grid-area: a;
+	padding-top: 40px;
+}
+
+#content{
+	background-color: orange;
+	grid-area: b;
+	padding-top: 50px;
+}
+
+
+#hero{
+	background-color: purple;
+	grid-area: c;
+	padding-top: 80px;
+}
+
+
+#side{
+	background-color: green;
+	grid-area: d;
+	padding-top: 80px;
+}
+
+#extra{
+	background-color: gray;
+	grid-area: e;
+	padding-top: 50px;
+
+}
+
+#img{
+	background-color: red;
+	grid-area: f;
+	padding-top: 40px;
+}
+
+#post{
+	background-color: violet;
+	grid-area: g;
+	padding-top: 40px;
+
+}
+#footer{
+	background-color: yellow;
+	grid-area: h;
+	padding-top: 30px;
+}
