@@ -1,0 +1,100 @@
+body{
+	margin: 0;
+	background-color: black;
+}
+
+.main{
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	
+	border: 5px solid red;
+	height: 500px;
+	width: 500px;
+}
+
+#yellow1{
+	margin-left: 5px;
+	margin-top: 5px;
+	height: 50px;
+	width: 50px;
+	background-color: yellow;
+}
+#yellow2{
+	margin-left: 5px;
+	margin-top: 5px;
+	height: 50px;
+	width: 50px;
+	background-color: yellow;
+}
+#yellow3{
+	margin-left: 5px;
+	margin-top: 5px;
+	height: 50px;
+	width: 50px;
+	background-color: yellow;
+}
+#yellow4{
+	margin-left: 5px;
+	margin-top: 5px;
+	height: 50px;
+	width: 50px;
+	background-color: yellow;
+}
+#yellow5{
+	margin-left: 5px;
+	margin-top: 5px;
+	height: 50px;
+	width: 50px;
+	background-color: yellow;
+}
+#yellow6{
+	margin-left: 5px;
+	margin-top: 5px;
+	height: 50px;
+	width: 50px;
+	background-color: yellow;
+}
+#yellow7{
+	margin-left: 5px;
+	margin-top: 5px;
+	height: 50px;
+	width: 50px;
+	background-color: yellow;
+}
+#yellow8{
+	margin-left: 5px;
+	margin-top: 5px;
+	height: 50px;
+	width: 50px;
+	background-color: yellow;
+}
+#yellow9{
+	margin-left: 5px;
+	margin-top: 5px;
+	height: 50px;
+	width: 50px;
+	background-color: yellow;
+}
+#yellow10{
+	margin-left: 5px;
+	margin-top: 5px;
+	height: 50px;
+	width: 50px;
+	background-color: yellow;
+}
+#yellow11{
+	margin-left: 5px;
+	margin-top: 5px;
+	height: 50px;
+	width: 50px;
+	background-color: yellow;
+}
+#yellow12{
+	margin-left: 5px;
+	margin-top: 5px;
+	height: 50px;
+	width: 50px;
+	background-color: yellow;
+	margin-right: 300px;
+}

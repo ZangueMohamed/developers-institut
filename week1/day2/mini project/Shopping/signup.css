@@ -1,9 +1,8 @@
 body{
 	margin: 0;
-	padding: 0;
-	height:100vh;
-	width: 100%;
-	
+	background-image: linear-gradient(left-top, violet, indigo, violet);
+	background-size: cover;
+	background-repeat: no-repeat; 
 	
 }
 
@@ -12,36 +11,47 @@ body{
 	background-image: url(images/image5.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	margin-left: 35%;
-	margin-top: 5%;
+	margin-left: 480px;
+	margin-top: 50px;
 	font-size: large;
 	box-sizing: border-box;
 	background-color: gray;
 	border: 1px solid white;
 	border-radius: 15px;
-	padding: 20px;
+	padding: 10px;
+	justify-content: center;
 
 }
 
 .formulaire p{
-	margin: 0;
-	padding: 0;
+	margin: 0px;
 	color: black;
 	font-weight: bold;
 }
-.titre{
-	margin: 0px;
-	padding: 0 0 20px;
-	font-weight: bold;
-	text-align: center;
-
-}
 
 .formulaire input,select{
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	width: 100%;
 
 }
+
 .login{
-	background-color: violet;
+	position: absolute;
+	background-image: url(images/image6.jpg);
+	background-size: cover;
+	margin-left: 550px;
+	margin-top: 150px;
+	font-size: large;
+	box-sizing: border-box;
+	border: 1px solid white;
+	border-radius: 15px;
+	padding: 10px;
+	height: 350px;
+	width: 250px;
 }
+.titre{
+	text-align: center;
+	font-weight: bold;
+}
+
+
