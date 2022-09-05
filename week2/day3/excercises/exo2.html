@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>exo2</title>
+</head>
+<body>
+	<script type="text/javascript">
+
+		let names= ["john", "sarah", 23, "Rudolf",34]
+        
+             for (let i in names){
+             	if (typeof(names[i]) == 'string'){
+
+             		if(names[i].charAt(0).toUpperCase() == names[i].charAt(0)){
+             			console.log(names[i])
+             		}
+             		else{
+             			console.log(`${names[i].charAt(0).toUpperCase()}${names[i].substring(1, 200)}`)
+             		}
+
+             	}
+             	
+             }
+             
+
+	</script>
+</body>
+</html>

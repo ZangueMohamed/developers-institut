@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>exercice1</title>
+</head>
+<body>
+
+	<script type="text/javascript">
+		
+       let people = ["Greg", "Mary", "Devon", "James"];
+
+       people.splice(0, 1)
+       console.log(people);
+       people.splice(2, 1, "Jason");
+       console.log(people)
+       people.push("Mohamed");
+       console.log(people);
+       console.log(people.indexOf("Mary"));
+       console.log(people.slice(1, 4));
+       console.log(people.indexOf("Foo"));
+       let last = (people[3]);
+       console.log(last);
+
+       for (var i = 0; i < 4; i++) {
+       	console.log(people[i]);
+       }
+
+       for (let i = 0; i < 4; i++) {
+       	console.log(people[i]);
+
+       	    if (i == 2) {
+       	    	break;
+       	    }
+
+       
+                  
+       }
+       
+
+
+	</script>
+
+</body>
+</html>

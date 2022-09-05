@@ -1,0 +1,58 @@
+body{
+	margin: 0px;
+}
+
+.container{
+	border-radius: 10px;
+	height: 500px;
+	width: 300px;
+	background-color: black;
+	margin-left: 300px;
+	margin-top: 50px;
+}
+
+#ecran{
+	justify-content: flex-end;
+	align-items: flex-end;
+	height: 60px;
+	width: 280px;
+	background-color: white;
+	opacity: 95%;
+	margin-left: 10px;
+	margin-top: 10px;
+	border-radius: 15px;
+
+}
+#btn{
+	margin-top: 10px;
+}
+
+button {
+		background-color: gray;
+		border-radius: 100px;
+		font-size: 22px;
+		font-weight: bold;
+        width:60px;
+        height:70px;
+        margin: 6px;
+      }
+
+#zero{
+	width: 134px;
+}
+#clear{
+	background-color: gray;
+	opacity: 35%;
+ 	width: 134px;
+ 	height: 60px;
+
+}
+#reset{
+	background-color: red;
+	width: 134px;
+ 	height: 60px;
+}
+
+.op{
+	background-color: orange;
+}

@@ -1,4 +1,94 @@
-#box{
-	background-image: url(images/image1.png);
+body{
+	margin: 0px;
 }
 
+#header{
+	background-image: url(images/image.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+} 
+#h3{
+	color: orange;
+	padding-top:60px;
+	text-align: center;
+}
+#h4{
+	color: aqua;
+	margin-left: 10px;
+}
+
+h3{
+	color: orange;
+}
+
+h4{
+	color: aqua;
+}
+
+
+p{
+	color: gray;
+	margin-left: 10px;
+}
+
+.box{
+	height: 100vh;
+	width: 100%;
+}
+
+.content{
+	padding: 200px;
+}
+
+#button{
+	border: 1px solid orange;
+	background-color: orange;
+	text-decoration: none;
+	border-radius: 6px;
+	color: white;
+}
+
+.main{
+	background-color: gainsboro;
+}
+
+.container{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+#img{
+	background-image: url(images/image2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 200px;
+	width: 200px;
+	border: 0px solid;
+	border-radius: 100px;
+	margin-left: 250px;
+	margin-top: 150px;
+}
+
+#description{
+	border: 3px solid blue;
+	height: 230px;
+	width: 500px;
+	margin-right: 200px;
+	margin-top: 120px;
+	border-right: none;
+	border-bottom: none;
+	border-top: none;
+}
+
+#portfolio{
+	margin: 50px;
+	justify-content: space-between;
+}
+
+#blog{
+	display: flex;
+	margin: 50px
+}
