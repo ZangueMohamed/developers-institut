@@ -1,0 +1,120 @@
+
+
+.container{
+	display: flex;
+	margin-top: 40px;
+	margin-left: 50px;
+	background-color: gray;
+	height: 100vh;
+	width: 900PX;
+}
+
+.left{
+	display: grid;
+	height: 100vh;
+	width: 300px;
+	margin-left: 10px;
+	margin-top: 5px;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 5px;
+}
+
+#btn{
+	grid-column: span 3;
+	border-radius: 15px;
+	font-size: 26px;
+	font-weight: bold;
+}
+
+#right{
+	display: grid;
+	grid-template-columns: repeat(60,30px);
+	margin-left: 317px;
+	margin-right: 500px;
+	width: 300pxpx;
+	height: 100vh;
+}
+
+#red{
+	background-color: red;
+}
+#orange{
+	background-color: orange;
+}
+#pink{
+	background-color: pink;
+	
+}
+#lime{
+	background-color: yellow;
+}
+#green{
+	background-color: gray;
+}
+#purple{
+	background-color: purple;
+}
+#indigo{
+	background-color: indigo;
+	
+}
+#blue{
+	background-color: blue;
+}
+#skyblue{
+	background-color: skyblue;
+	
+}
+#aqua{
+	background-color: aqua ;
+	
+}
+#aquamarine{
+	background-color: magenta;
+	
+}
+#black{
+	background-color: black;
+	
+}
+#brown{
+	background-color: brown;
+	
+}
+#blueviolet{
+	background-color: blueviolet;
+	
+	
+}
+#chocolate{
+	background-color: chocolate;
+	
+}
+#chartreuse{background-color: chartreuse;
+	
+}
+#coral{
+	background-color: coral;
+	
+}
+#crimson{
+	background-color: crimson;
+	
+	
+}
+#darkcyan{
+	background-color: darkcyan;
+	
+	
+}
+#darkgreen{
+	background-color: darkgreen;
+		
+}
+#yellow{
+	background-color: lime;
+	
+}
+
+
+
